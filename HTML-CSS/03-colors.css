@@ -1,0 +1,21 @@
+.color-1 {
+    color : #8C322A;
+}
+
+.color-2 {
+    color: #F23322;
+}
+
+.color-3 {
+    color: #2962ff;
+}
+/* 0-255 */
+.color-4 {
+    color: rgb(255,100,0);
+    /* opacity: 0.2; */
+}
+
+/* 0-255 | opacity -0-1 */
+.color-5 {
+    color:rgba(0,255,0,0.5)
+}

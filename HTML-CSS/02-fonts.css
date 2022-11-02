@@ -1,0 +1,35 @@
+/* Подключение шрифта извне */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+/* Подключение семейства шрифтов , через запятую если какого-то нет на браузере */
+
+body{
+
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+font-family: 'Roboto', sans-serif;
+/* единицы измерения в CSS бывают разные */
+/* font-size: 30px; */
+font-size: 18px;
+/* Высота линий */
+line-height: 2.0em;
+/* font-weight: normal;   */
+font-weight: 400;
+/* Нижнее подчеркивание  */
+/* text-decoration: underline; */
+text-decoration:wavy;
+/* между буквами пробелы */
+ letter-spacing: 0px;
+ /* отступы между словами */
+ word-spacing: 0px;
+
+/* можно несколько свойств записать в одно */
+/* font:normal 20px 'Roboto', sans-serif; */
+}
+
+/* Чем БОЛЕЕ общий стиль, тем меньше у него приоритет */
+
+.css p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,24 @@
+.border-1 {
+border-width: 2px;
+border-style: solid;
+border-color: darkblue;
+border-radius : 10px;
+}
+/*  */
+.border-2 {
+    border: 2px solid darkblue;
+    border-radius : 10px;
+}
+
+.border-3 {
+    border-top: 2px solid gold;
+   border-bottom-right-radius: 10px;
+   border-right: 5px solid black;
+   border-left: 6px solid yellow;
+   background: light;
+   padding-left: 10px ;
+   color: #fff;
+   background: lightseagreen;
+
+}
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h1>form</h1>
+    <form>
+        <div>
+        <label for="text2">Text</label>
+        <input id="text2" type="text" value="Print somthing" readonly>
+    </div>
+        <label for="Email">Email</label>
+        <input id="Email" type="email" placeholder="your email plz">
+        <div>
+            <label for="password">password</label>
+            <input id="password" type="password" placeholder="your pass plz" >
+        </div>
+
+        <div>
+            <label for="number">number</label>
+            <input id="number" type="number" min="0" max="10">
+        </div>
+        <div>
+            <label for="range">range</label>
+            <input id="range" type="range" min="0" max="10" step="1">
+        </div>
+        <div>
+            <label for="date">date</label>
+            <input id="date" type="date">
+        </div>
+        <div>
+            <label for="color">color</label>
+            <input id="color" type="color">
+        </div>
+<div>
+    <label for="message">Message</label>
+    <hr>
+    <br>
+    <textarea name="" id="message" cols="30" rows="15"></textarea>
+
+</div>
+<div>
+    <label for="sex">sex</label>
+ <select name="" id="sex">
+    <option value="male">male</option>
+    <option value="female" selected>female</option>
+    <option value="other">other</option>
+ </select>
+</div>
+<div>
+    <label for="color">work value</label>
+    <br>
+    <input type="radio" name="work">one
+    <input type="radio"name="work">two
+    <input type="radio"name="work">moree 10
+    <input type="radio"name="work">i dont whant say
+</div>
+<hr>
+<div>
+    <label for="color">What weather i love</label>
+    <br>
+    <input type="checkbox" name="weather">Sunny
+    <input type="checkbox"name="weather">Rainy
+    <input type="checkbox"name="weather">Cloudy
+    <input type="checkbox"name="weather">Foggy
+</div>
+<input type="submit" value="Send form">
+<br>
+<button type="submit">Send form</button>
+
+    </form>
+</body>
+
+</html>

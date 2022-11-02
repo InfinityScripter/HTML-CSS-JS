@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Raleway:wght@300&family=Roboto:wght@300&display=swap');
+
+@media (max-width:650px) {
+    .info {
+        display: block;
+    }
+}
+
+body {
+    background: #7eb9bf;
+    font-size: 15px;
+    font-family: 'Nunito Sans', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal
+}
+
+.container {
+    margin: auto;
+    width: 500px;
+    padding: 15px;
+    margin: 15px;
+}
+
+.info {
+    background: #a0d9d9;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 15px;
+    display: flex;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-social {
+    font-weight: bold;
+}
+
+.info-text p {
+    font-family: 'Roboto';
+
+}
+
+.hobbie {
+    background: #a0d9d9;
+    border-radius: 10px;
+
+    padding: 10px 15px 15px 15px;
+    margin: 15px;
+}
+
+
+
+.job {
+    background: #a0d9d9;
+    border-radius: 10px;
+    padding: 10px 15px 15px 15px;
+    margin: 15px;
+}
+
+.job table {
+    text-align: center;
+}
+
+
+.contact {
+background: #a0d9d9;
+border-radius: 10px;
+padding: 10px 15px 15px 15px;
+margin: 15px;
+}
+
+
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #429f9f;
+  border-radius: 0.6em;
+  color: #103434;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  font-size: 0.8rem;
+  font-weight: 400;
+  line-height: 1;
+  margin:5px;
+  padding: 0.6em 1em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+.btn:hover {
+
+    color: #fff;
+    outline:0;
+    box-shadow: 0 0 40px 40px #429f9f inset;
+  }
+
+a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-weight: bold;
+    color: black;
+}
+
+a:hover {
+   color: #429f9f; 
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    padding-bottom: 5px;
+}
+
+.form h3 {
+    text-align: center;
+}
+
+.form-group label {
+display: block;
+font-size: 14px;
+
+}
+
+.form-group input {
+    /* display: inline-block; */
+    margin-bottom: 10px;
+    margin-right: 20px;
+    /* width: calc(50% - 20px); */
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid;
+    padding: 15px 0 10px;
+    outline: none;
+
+}
+.form-group input,
+.form-group textarea:last-child{
+    margin-right: 0;
+}
